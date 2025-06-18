@@ -7,7 +7,14 @@ const availableLetters = ref<string>("");
 
 <template>
     <div class="app-layout">
-        <h2>Letter Jam Solver, made by Calvin Le</h2>
+        <h2>
+            Letter Jam Solver, made by
+            <a
+                href="https://github.com/CalvinLe360/letter-jam-solver"
+                target="_blank"
+                >Calvin Le</a
+            >
+        </h2>
         <a
             href="https://boardgamegeek.com/boardgame/275467/letter-jam"
             target="_blank"
